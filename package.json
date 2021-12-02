@@ -1,16 +1,25 @@
 {
-  "name": "utils",
+  "name": "dann-util",
   "version": "0.0.1",
   "description": "Helpful functions and methods for making an easy code.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DannArm/dann-util.git"
   },
   "keywords": [
+    "util",
     "utils",
     "functions",
-    "shorts"
+    "easy"
   ],
   "author": "Dann#1000",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DannArm/dann-util/issues"
+  },
+  "homepage": "https://github.com/DannArm/dann-util#readme"
 }
