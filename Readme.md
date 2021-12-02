@@ -93,5 +93,5 @@ JSON.stringify, but more simply.
 
 ## Join to us!
 
-* 💚 [Discord Embed Maker]((https://www.npmjs.com/package/dann-embed)
+* 💚 [Discord Embed Maker](https://www.npmjs.com/package/dann-embed)
 * 💜 [OnlyChill Discord Server](https://discord.gg/2kAxJW4rzK)
