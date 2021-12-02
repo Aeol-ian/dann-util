@@ -1,0 +1,16 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "description": "Helpful functions and methods for making an easy code.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "utils",
+    "functions",
+    "shorts"
+  ],
+  "author": "Dann#1000",
+  "license": "ISC"
+}
