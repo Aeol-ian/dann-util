@@ -14,8 +14,8 @@ const Util = require("dann-util");
 await Util.delay(5000);
 
 
-const unqiueArray = Util.unique([1, 1, 5, 1, 6, 7, 7, 5, 9, 5]);
-console.log(uniqiueArray);
+const uniqueArray = Util.unique([1, 1, 5, 1, 6, 7, 7, 5, 9, 5]);
+console.log(uniqueArray);
 
 // After 5 seconds, Output: [1, 5, 6, 7, 9]
 ```
