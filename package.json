@@ -1,6 +1,6 @@
 {
   "name": "dann-util",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Helpful functions and methods for making an easy code.",
   "main": "index.js",
   "scripts": {

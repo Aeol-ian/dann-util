@@ -7,11 +7,11 @@ module.exports = class Main {
 	}
 
 	static random(min, max) {
-		if (!min || isNaN(min)) error("Enter a valid number.");
+		if (isNaN(min)) error("Enter a valid number.");
 		if (max && !isNaN(max)) {
-			return Math.floor(Math.ran() * (max - min + 1) + min);
+			return Math.floor(Math.random() * (max - min + 1) + min);
 		} else {
-			return Math.floor(Math.ran() * min + min);
+			return Math.floor(Math.random() * min + min);
 		}
 	}
 
@@ -34,7 +34,7 @@ module.exports = class Main {
   	}
 
 	static crFormat(number) {
-		if (!number || isNaN(number)) error("Enter a valid number.");
+		if (isNaN(number)) error("Enter a valid number.");
 	    const ranking = Math.log10(number) / 3 | 0;
 	    if (!ranking) return number.toString();
 	    const last = MONEY[ranking];
@@ -44,7 +44,7 @@ module.exports = class Main {
 	}
 
 	static formatNumber(number, locale = "en-us") {
-	  	if (!number || isNaN(number)) error("Enter a valid number.");
+	  	if (isNaN(number)) error("Enter a valid number.");
 	  	return Number.parseFloat(number).toLocaleString(locale);
   	}
 
